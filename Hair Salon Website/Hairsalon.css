@@ -1,0 +1,270 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: 'Noto Serif Lao', serif;
+  font-size: 12px;
+  font-weight: light 300;
+}
+
+nav,.sectionOne,.sectionTwo{ 
+  color: black;
+}
+
+main { 
+  color: white;
+}
+
+button{
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5%;
+  background-color: #F6F6F6;
+  font-size: 14px;
+}
+
+.navLogo {
+  padding-left: 3%;
+  width: 8%;
+}
+
+nav, ul { 
+  display: flex;
+  width: 100%;
+}
+
+ul li { 
+  flex-basis: 50%;
+  list-style: none;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.mainNav { 
+  padding-left: 20%;
+  padding-right: 15%;
+}
+
+a{ 
+  text-decoration-line: none;
+}
+
+.shoppingBagLogo { 
+  padding-top: 0; 
+}
+
+.bookOnline{
+  text-align: center;
+  padding-top: 2%;
+  padding-right: 8%;
+  width: 20%;
+}
+
+main,.sectionOne,.sectionTwo,.sectionThree,.sectionFour{
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+main {
+  height: 500px;
+  background: #b3a8ac;
+  background-image: url("Hair-Salon-Main.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: start;
+  font-size: 18px;
+}
+
+.blonde,.visit{ 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 20%;
+}
+span { 
+  display: flex;
+  justify-content: space-between;
+  inline-size: 3px;
+  overflow-wrap: break-word;
+  align-self: flex-end;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  margin-right: 3%;
+}
+
+.availability{ 
+  display: flex;
+  align-self: flex-start;
+  margin-left: 20%;
+  padding-top: 3%;
+}
+.sectionOne { 
+  height: 300px;
+  justify-content: space-around;
+}
+
+.OneOne,.OneTwo,.OneThree { 
+  height: 200px;
+  width: 20%;
+  margin-top: 5%;
+}
+
+.OneOne{
+  margin-left: 5%;
+}
+
+.OneThree {
+  margin-right: 5%;
+}
+
+.sectionTwo{
+  height: 400px;
+  width: 100%;
+  background-color: #F6F6F6;
+}
+
+.TwoOne,.TwoTwo { 
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.TwoOne {
+   margin-left: 10%;
+   padding-right: 3%;
+   width: 30%;
+   margin-top: 5%;
+}
+
+.video{
+  width: 600px;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 30%;
+}
+
+.sectionThree { 
+  height: 300px;
+  justify-content: center;
+  align-items:center;
+}
+
+.sectionThree img {
+ width: 350px;
+ height: 233px;
+ padding: 1%;
+}
+
+.sectionFour { 
+  height: 400px;
+  background-image: url(hairsalonMain2.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.colourDayOffer{ 
+  margin: 9% 6% 6% 0%;
+}
+
+.colourDayOffer h2 h2{
+  margin-bottom: 2%;
+}
+.FourOne{
+  height: auto;
+  align-items: center;
+}
+
+.sectionFive{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.sectionSix{
+  height: 600px;
+}
+
+models {
+  display: flex;
+}
+
+.lookbook { 
+  display: flex;
+  justify-content: center;
+}
+
+.image{
+  width: 200px;
+  height: auto;
+  padding: 2%;
+}
+
+.column1{
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 5.8%;
+}
+
+.column2{
+  display: flex;
+  flex-direction: column;
+}
+
+.column3{
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 5.5%;
+}
+
+.models{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.m5{ 
+  height: 300.8px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
